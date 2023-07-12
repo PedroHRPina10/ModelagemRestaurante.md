@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="pt-BR">
+  <compounddef id="class_cliente" kind="class" language="C++" prot="public">
+    <compoundname>Cliente</compoundname>
+    <includes refid="_cliente_8hpp" local="no">Cliente.hpp</includes>
+    <innerclass refid="struct_cliente_1_1_pedido" prot="private">Cliente::Pedido</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_cliente_1a692ffe7660a616044cca53c135cf5814" prot="private" static="no" mutable="no">
+        <type><ref refid="class_pedido" kindref="compound">Pedido</ref></type>
+        <definition>Pedido Cliente::pedido</definition>
+        <argsstring></argsstring>
+        <name>pedido</name>
+        <qualifiedname>Cliente::pedido</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Cliente.hpp" line="17" column="12" bodyfile="Cliente.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cliente_1a33dc14f96c03cbe8dec11dc597ced770" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cliente::realizarPedido</definition>
+        <argsstring>(const std::string &amp;endereco)</argsstring>
+        <name>realizarPedido</name>
+        <qualifiedname>Cliente::realizarPedido</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>endereco</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Cliente.hpp" line="20" column="10" bodyfile="Cliente.cpp" bodystart="4" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cliente_1ac25ac735eaef14d435723ab984319b95" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cliente::exibirStatusPedido</definition>
+        <argsstring>() const</argsstring>
+        <name>exibirStatusPedido</name>
+        <qualifiedname>Cliente::exibirStatusPedido</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Cliente.hpp" line="21" column="10" bodyfile="Cliente.cpp" bodystart="10" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cliente_1ab51de985276ebb105a400900c4d7bcb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cliente::cancelarPedido</definition>
+        <argsstring>()</argsstring>
+        <name>cancelarPedido</name>
+        <qualifiedname>Cliente::cancelarPedido</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Cliente.hpp" line="22" column="10" bodyfile="Cliente.cpp" bodystart="17" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Cliente.hpp" line="7" column="1" bodyfile="Cliente.hpp" bodystart="8" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_cliente_1ab51de985276ebb105a400900c4d7bcb1" prot="public" virt="non-virtual"><scope>Cliente</scope><name>cancelarPedido</name></member>
+      <member refid="class_cliente_1ac25ac735eaef14d435723ab984319b95" prot="public" virt="non-virtual"><scope>Cliente</scope><name>exibirStatusPedido</name></member>
+      <member refid="class_cliente_1a692ffe7660a616044cca53c135cf5814" prot="private" virt="non-virtual"><scope>Cliente</scope><name>pedido</name></member>
+      <member refid="class_cliente_1a33dc14f96c03cbe8dec11dc597ced770" prot="public" virt="non-virtual"><scope>Cliente</scope><name>realizarPedido</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

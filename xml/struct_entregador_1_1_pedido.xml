@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="pt-BR">
+  <compounddef id="struct_entregador_1_1_pedido" kind="struct" language="C++" prot="private">
+    <compoundname>Entregador::Pedido</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_entregador_1_1_pedido_1a19b83cbfa655797536c13abb1c393c77" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Entregador::Pedido::enderecoEntrega</definition>
+        <argsstring></argsstring>
+        <name>enderecoEntrega</name>
+        <qualifiedname>Entregador::Pedido::enderecoEntrega</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Entregador.hpp" line="12" column="21" bodyfile="Entregador.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_entregador_1_1_pedido_1adae2d8bf11248c4f7523b770d8b80469" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Entregador::Pedido::contatoCliente</definition>
+        <argsstring></argsstring>
+        <name>contatoCliente</name>
+        <qualifiedname>Entregador::Pedido::contatoCliente</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Entregador.hpp" line="13" column="21" bodyfile="Entregador.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_entregador_1_1_pedido_1a0a36b9ab8c670fe28b1f91d4509ee7a1" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Entregador::Pedido::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>Entregador::Pedido::status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Entregador.hpp" line="14" column="21" bodyfile="Entregador.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Entregador.hpp" line="10" column="5" bodyfile="Entregador.hpp" bodystart="11" bodyend="15"/>
+    <listofallmembers>
+      <member refid="struct_entregador_1_1_pedido_1adae2d8bf11248c4f7523b770d8b80469" prot="public" virt="non-virtual"><scope>Entregador::Pedido</scope><name>contatoCliente</name></member>
+      <member refid="struct_entregador_1_1_pedido_1a19b83cbfa655797536c13abb1c393c77" prot="public" virt="non-virtual"><scope>Entregador::Pedido</scope><name>enderecoEntrega</name></member>
+      <member refid="struct_entregador_1_1_pedido_1a0a36b9ab8c670fe28b1f91d4509ee7a1" prot="public" virt="non-virtual"><scope>Entregador::Pedido</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

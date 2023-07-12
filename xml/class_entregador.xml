@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="pt-BR">
+  <compounddef id="class_entregador" kind="class" language="C++" prot="public">
+    <compoundname>Entregador</compoundname>
+    <includes refid="_entregador_8hpp" local="no">Entregador.hpp</includes>
+    <innerclass refid="struct_entregador_1_1_pedido" prot="private">Entregador::Pedido</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_entregador_1af515d2eceec8490dbfa700eb7fc071e8" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_pedido" kindref="compound">Pedido</ref> &gt;</type>
+        <definition>std::vector&lt;Pedido&gt; Entregador::pedidos</definition>
+        <argsstring></argsstring>
+        <name>pedidos</name>
+        <qualifiedname>Entregador::pedidos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Entregador.hpp" line="17" column="17" bodyfile="Entregador.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_entregador_1aefdec78b5549ba67ce3d43933e99bb29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Entregador::receberNovoPedido</definition>
+        <argsstring>(const std::string &amp;enderecoEntrega, const std::string &amp;contatoCliente)</argsstring>
+        <name>receberNovoPedido</name>
+        <qualifiedname>Entregador::receberNovoPedido</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>enderecoEntrega</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>contatoCliente</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Entregador.hpp" line="20" column="10" bodyfile="Entregador.cpp" bodystart="4" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_entregador_1a710946d5b5d3c48cf8612e267693f66a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Entregador::exibirPedidosPendentes</definition>
+        <argsstring>() const</argsstring>
+        <name>exibirPedidosPendentes</name>
+        <qualifiedname>Entregador::exibirPedidosPendentes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Entregador.hpp" line="21" column="10" bodyfile="Entregador.cpp" bodystart="13" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_entregador_1ab9b87f022cc72b791bfa72303c313afc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Entregador::exibirTempoEntrega</definition>
+        <argsstring>() const</argsstring>
+        <name>exibirTempoEntrega</name>
+        <qualifiedname>Entregador::exibirTempoEntrega</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Entregador.hpp" line="22" column="10" bodyfile="Entregador.cpp" bodystart="27" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Entregador.hpp" line="7" column="1" bodyfile="Entregador.hpp" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_entregador_1a710946d5b5d3c48cf8612e267693f66a" prot="public" virt="non-virtual"><scope>Entregador</scope><name>exibirPedidosPendentes</name></member>
+      <member refid="class_entregador_1ab9b87f022cc72b791bfa72303c313afc" prot="public" virt="non-virtual"><scope>Entregador</scope><name>exibirTempoEntrega</name></member>
+      <member refid="class_entregador_1af515d2eceec8490dbfa700eb7fc071e8" prot="private" virt="non-virtual"><scope>Entregador</scope><name>pedidos</name></member>
+      <member refid="class_entregador_1aefdec78b5549ba67ce3d43933e99bb29" prot="public" virt="non-virtual"><scope>Entregador</scope><name>receberNovoPedido</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

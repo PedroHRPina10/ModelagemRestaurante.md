@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="pt-BR">
+  <compounddef id="class_cardapio" kind="class" language="C++" prot="public">
+    <compoundname>Cardapio</compoundname>
+    <includes refid="_cardapio_8hpp" local="no">Cardapio.hpp</includes>
+    <innerclass refid="struct_cardapio_1_1_item" prot="public">Cardapio::Item</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_cardapio_1abe3eef5f8c7f3341043f5130b5b32970" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_cardapio_1_1_item" kindref="compound">Item</ref> &gt;</type>
+        <definition>std::vector&lt;Item&gt; Cardapio::itens</definition>
+        <argsstring></argsstring>
+        <name>itens</name>
+        <qualifiedname>Cardapio::itens</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Cardapio.hpp" line="24" column="17" bodyfile="Cardapio.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cardapio_1ab35f8746c65145389325846a7dd9d2db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Cardapio::Cardapio</definition>
+        <argsstring>()</argsstring>
+        <name>Cardapio</name>
+        <qualifiedname>Cardapio::Cardapio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Cardapio.hpp" line="17" column="5" bodyfile="Cardapio.cpp" bodystart="4" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cardapio_1ae11143605886b09e77e792fe05ba88d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cardapio::adicionarItem</definition>
+        <argsstring>(const std::string &amp;nome, const std::string &amp;descricao, double preco)</argsstring>
+        <name>adicionarItem</name>
+        <qualifiedname>Cardapio::adicionarItem</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>descricao</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>preco</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Cardapio.hpp" line="19" column="10" bodyfile="Cardapio.cpp" bodystart="6" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cardapio_1a62d53a430c64844bc355419551d4d1c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cardapio::removerItem</definition>
+        <argsstring>(const std::string &amp;nome)</argsstring>
+        <name>removerItem</name>
+        <qualifiedname>Cardapio::removerItem</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Cardapio.hpp" line="20" column="10" bodyfile="Cardapio.cpp" bodystart="15" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cardapio_1ac6f47639002d2fbbb51579c20a2668d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cardapio::exibirCardapio</definition>
+        <argsstring>() const</argsstring>
+        <name>exibirCardapio</name>
+        <qualifiedname>Cardapio::exibirCardapio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Cardapio.hpp" line="21" column="10" bodyfile="Cardapio.cpp" bodystart="27" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Cardapio.hpp" line="7" column="1" bodyfile="Cardapio.hpp" bodystart="8" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_cardapio_1ae11143605886b09e77e792fe05ba88d7" prot="public" virt="non-virtual"><scope>Cardapio</scope><name>adicionarItem</name></member>
+      <member refid="class_cardapio_1ab35f8746c65145389325846a7dd9d2db" prot="public" virt="non-virtual"><scope>Cardapio</scope><name>Cardapio</name></member>
+      <member refid="class_cardapio_1ac6f47639002d2fbbb51579c20a2668d8" prot="public" virt="non-virtual"><scope>Cardapio</scope><name>exibirCardapio</name></member>
+      <member refid="class_cardapio_1abe3eef5f8c7f3341043f5130b5b32970" prot="private" virt="non-virtual"><scope>Cardapio</scope><name>itens</name></member>
+      <member refid="class_cardapio_1a62d53a430c64844bc355419551d4d1c6" prot="public" virt="non-virtual"><scope>Cardapio</scope><name>removerItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

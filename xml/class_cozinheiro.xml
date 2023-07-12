@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="pt-BR">
+  <compounddef id="class_cozinheiro" kind="class" language="C++" prot="public">
+    <compoundname>Cozinheiro</compoundname>
+    <includes refid="_cozinheiro_8hpp" local="no">Cozinheiro.hpp</includes>
+    <innerclass refid="struct_cozinheiro_1_1_pedido" prot="private">Cozinheiro::Pedido</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_cozinheiro_1a05147fe129610918db3fceb8e8a392fa" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_pedido" kindref="compound">Pedido</ref> &gt;</type>
+        <definition>std::vector&lt;Pedido&gt; Cozinheiro::pedidos</definition>
+        <argsstring></argsstring>
+        <name>pedidos</name>
+        <qualifiedname>Cozinheiro::pedidos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Cozinheiro.hpp" line="17" column="17" bodyfile="Cozinheiro.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cozinheiro_1ad1fcd2d9b6354b2bf70f6ad2b5d507c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cozinheiro::receberNovoPedido</definition>
+        <argsstring>(const std::string &amp;cliente, const std::vector&lt; std::string &gt; &amp;itens)</argsstring>
+        <name>receberNovoPedido</name>
+        <qualifiedname>Cozinheiro::receberNovoPedido</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>cliente</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>itens</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Cozinheiro.hpp" line="20" column="10" bodyfile="Cozinheiro.cpp" bodystart="4" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cozinheiro_1a2ad3bf47edc3750c21e73bc578c872fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cozinheiro::exibirPedidosPendentes</definition>
+        <argsstring>() const</argsstring>
+        <name>exibirPedidosPendentes</name>
+        <qualifiedname>Cozinheiro::exibirPedidosPendentes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Cozinheiro.hpp" line="21" column="10" bodyfile="Cozinheiro.cpp" bodystart="13" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cozinheiro_1a5301ed38fb817ee8cf93247598322205" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cozinheiro::exibirDetalhesPedido</definition>
+        <argsstring>(int indicePedido) const</argsstring>
+        <name>exibirDetalhesPedido</name>
+        <qualifiedname>Cozinheiro::exibirDetalhesPedido</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>indicePedido</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Cozinheiro.hpp" line="22" column="10" bodyfile="Cozinheiro.cpp" bodystart="32" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cozinheiro_1ac0f36981f086f9ada1191673f9f95e53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cozinheiro::marcarPedidoPreparado</definition>
+        <argsstring>(int indicePedido)</argsstring>
+        <name>marcarPedidoPreparado</name>
+        <qualifiedname>Cozinheiro::marcarPedidoPreparado</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>indicePedido</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Cozinheiro.hpp" line="23" column="10" bodyfile="Cozinheiro.cpp" bodystart="49" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Cozinheiro.hpp" line="7" column="1" bodyfile="Cozinheiro.hpp" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_cozinheiro_1a5301ed38fb817ee8cf93247598322205" prot="public" virt="non-virtual"><scope>Cozinheiro</scope><name>exibirDetalhesPedido</name></member>
+      <member refid="class_cozinheiro_1a2ad3bf47edc3750c21e73bc578c872fc" prot="public" virt="non-virtual"><scope>Cozinheiro</scope><name>exibirPedidosPendentes</name></member>
+      <member refid="class_cozinheiro_1ac0f36981f086f9ada1191673f9f95e53" prot="public" virt="non-virtual"><scope>Cozinheiro</scope><name>marcarPedidoPreparado</name></member>
+      <member refid="class_cozinheiro_1a05147fe129610918db3fceb8e8a392fa" prot="private" virt="non-virtual"><scope>Cozinheiro</scope><name>pedidos</name></member>
+      <member refid="class_cozinheiro_1ad1fcd2d9b6354b2bf70f6ad2b5d507c5" prot="public" virt="non-virtual"><scope>Cozinheiro</scope><name>receberNovoPedido</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

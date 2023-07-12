@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.7" xml:lang="pt-BR">
+  <compound refid="class_cardapio" kind="class"><name>Cardapio</name>
+    <member refid="class_cardapio_1abe3eef5f8c7f3341043f5130b5b32970" kind="variable"><name>itens</name></member>
+    <member refid="class_cardapio_1ab35f8746c65145389325846a7dd9d2db" kind="function"><name>Cardapio</name></member>
+    <member refid="class_cardapio_1ae11143605886b09e77e792fe05ba88d7" kind="function"><name>adicionarItem</name></member>
+    <member refid="class_cardapio_1a62d53a430c64844bc355419551d4d1c6" kind="function"><name>removerItem</name></member>
+    <member refid="class_cardapio_1ac6f47639002d2fbbb51579c20a2668d8" kind="function"><name>exibirCardapio</name></member>
+  </compound>
+  <compound refid="class_cliente" kind="class"><name>Cliente</name>
+    <member refid="class_cliente_1a692ffe7660a616044cca53c135cf5814" kind="variable"><name>pedido</name></member>
+    <member refid="class_cliente_1a33dc14f96c03cbe8dec11dc597ced770" kind="function"><name>realizarPedido</name></member>
+    <member refid="class_cliente_1ac25ac735eaef14d435723ab984319b95" kind="function"><name>exibirStatusPedido</name></member>
+    <member refid="class_cliente_1ab51de985276ebb105a400900c4d7bcb1" kind="function"><name>cancelarPedido</name></member>
+  </compound>
+  <compound refid="class_cozinheiro" kind="class"><name>Cozinheiro</name>
+    <member refid="class_cozinheiro_1a05147fe129610918db3fceb8e8a392fa" kind="variable"><name>pedidos</name></member>
+    <member refid="class_cozinheiro_1ad1fcd2d9b6354b2bf70f6ad2b5d507c5" kind="function"><name>receberNovoPedido</name></member>
+    <member refid="class_cozinheiro_1a2ad3bf47edc3750c21e73bc578c872fc" kind="function"><name>exibirPedidosPendentes</name></member>
+    <member refid="class_cozinheiro_1a5301ed38fb817ee8cf93247598322205" kind="function"><name>exibirDetalhesPedido</name></member>
+    <member refid="class_cozinheiro_1ac0f36981f086f9ada1191673f9f95e53" kind="function"><name>marcarPedidoPreparado</name></member>
+  </compound>
+  <compound refid="class_dono_restaurante" kind="class"><name>DonoRestaurante</name>
+    <member refid="class_dono_restaurante_1ac3ae20cd798b3822658f8a16a75defee" kind="variable"><name>fornecedores</name></member>
+    <member refid="class_dono_restaurante_1ae6ba5a487f047d62680cf11b6a7aad45" kind="function"><name>cadastrarFornecedor</name></member>
+    <member refid="class_dono_restaurante_1ac73bba409400ac65c4d04767e7a4e651" kind="function"><name>editarFornecedor</name></member>
+    <member refid="class_dono_restaurante_1a4f8e62ffe1e2f8ad02577f7d0df402dd" kind="function"><name>excluirFornecedor</name></member>
+    <member refid="class_dono_restaurante_1ab0b9b68e50947566a04cb6f73603cde6" kind="function"><name>exibirFornecedores</name></member>
+    <member refid="class_dono_restaurante_1a07ebc6d2064771dd84d5b6eeeedc1718" kind="function"><name>exibirPratosMaisVendidos</name></member>
+    <member refid="class_dono_restaurante_1a75f308c646d5fdd393100170c83aaf22" kind="function"><name>exibirLucroDiario</name></member>
+    <member refid="class_dono_restaurante_1a790e1197bafe534fba88ce703a754763" kind="function"><name>exibirLucroSemanal</name></member>
+    <member refid="class_dono_restaurante_1a82459dfc9044b01ff03c7574a0677a9f" kind="function"><name>exibirLucroMensal</name></member>
+  </compound>
+  <compound refid="class_entregador" kind="class"><name>Entregador</name>
+    <member refid="class_entregador_1af515d2eceec8490dbfa700eb7fc071e8" kind="variable"><name>pedidos</name></member>
+    <member refid="class_entregador_1aefdec78b5549ba67ce3d43933e99bb29" kind="function"><name>receberNovoPedido</name></member>
+    <member refid="class_entregador_1a710946d5b5d3c48cf8612e267693f66a" kind="function"><name>exibirPedidosPendentes</name></member>
+    <member refid="class_entregador_1ab9b87f022cc72b791bfa72303c313afc" kind="function"><name>exibirTempoEntrega</name></member>
+  </compound>
+  <compound refid="struct_dono_restaurante_1_1_fornecedor" kind="struct"><name>DonoRestaurante::Fornecedor</name>
+    <member refid="struct_dono_restaurante_1_1_fornecedor_1a2760dc2355e02a49d27b232c6ad22fba" kind="variable"><name>nome</name></member>
+    <member refid="struct_dono_restaurante_1_1_fornecedor_1a4aa0342872b234705581edc16d706b91" kind="variable"><name>endereco</name></member>
+    <member refid="struct_dono_restaurante_1_1_fornecedor_1a3b87af00e19e30c4ff2db8ca6d4c6846" kind="variable"><name>telefone</name></member>
+  </compound>
+  <compound refid="struct_cardapio_1_1_item" kind="struct"><name>Cardapio::Item</name>
+    <member refid="struct_cardapio_1_1_item_1a4cb41b0bea37ab98239106a5b03c8ac6" kind="variable"><name>nome</name></member>
+    <member refid="struct_cardapio_1_1_item_1adcb31d91dc32fc8b792b01297db9fc15" kind="variable"><name>descricao</name></member>
+    <member refid="struct_cardapio_1_1_item_1a780183549ff908d6ae96499a1b81740f" kind="variable"><name>preco</name></member>
+  </compound>
+  <compound refid="struct_cliente_1_1_pedido" kind="struct"><name>Cliente::Pedido</name>
+    <member refid="struct_cliente_1_1_pedido_1a858e9005cca33d5447a54f5fa3dcd5f6" kind="variable"><name>endereco</name></member>
+    <member refid="struct_cliente_1_1_pedido_1a1d02c445996dcfb9ae9e093f8214efda" kind="variable"><name>itens</name></member>
+    <member refid="struct_cliente_1_1_pedido_1aa92ea74a7bb175c53d40d0d0e00a08dc" kind="variable"><name>status</name></member>
+  </compound>
+  <compound refid="struct_cozinheiro_1_1_pedido" kind="struct"><name>Cozinheiro::Pedido</name>
+    <member refid="struct_cozinheiro_1_1_pedido_1a3c5ff1926aff29489d29a96113a432a3" kind="variable"><name>cliente</name></member>
+    <member refid="struct_cozinheiro_1_1_pedido_1a2f9a3a94728e584734691730d7c175e5" kind="variable"><name>itens</name></member>
+    <member refid="struct_cozinheiro_1_1_pedido_1a035ff5bbce05630890cb6b2bb917ef6f" kind="variable"><name>status</name></member>
+  </compound>
+  <compound refid="struct_entregador_1_1_pedido" kind="struct"><name>Entregador::Pedido</name>
+    <member refid="struct_entregador_1_1_pedido_1a19b83cbfa655797536c13abb1c393c77" kind="variable"><name>enderecoEntrega</name></member>
+    <member refid="struct_entregador_1_1_pedido_1adae2d8bf11248c4f7523b770d8b80469" kind="variable"><name>contatoCliente</name></member>
+    <member refid="struct_entregador_1_1_pedido_1a0a36b9ab8c670fe28b1f91d4509ee7a1" kind="variable"><name>status</name></member>
+  </compound>
+  <compound refid="class_pedido" kind="class"><name>Pedido</name>
+    <member refid="class_pedido_1ac29366538d92bcdb8e67e25bb17b06f2" kind="variable"><name>cliente</name></member>
+    <member refid="class_pedido_1af6e9f0ede4b4440b450fc5e9ef2507b8" kind="variable"><name>descricao</name></member>
+    <member refid="class_pedido_1a7cbed1541fa704892d2f9673ecd883df" kind="variable"><name>status</name></member>
+    <member refid="class_pedido_1a3ef8da3c8e2d629143745799f0b1d417" kind="function"><name>Pedido</name></member>
+    <member refid="class_pedido_1ad20a84f0d7a3c9989cc7e5de8067c826" kind="function"><name>getCliente</name></member>
+    <member refid="class_pedido_1acefda5d25c146520eddb932d7c66be65" kind="function"><name>getDescricao</name></member>
+    <member refid="class_pedido_1abab6213c1a30367f4a2afda215e31005" kind="function"><name>getStatus</name></member>
+    <member refid="class_pedido_1a21bdc6a0b9ed9c305ad5cf27d479460a" kind="function"><name>setStatus</name></member>
+  </compound>
+  <compound refid="class_relatorio" kind="class"><name>Relatorio</name>
+    <member refid="class_relatorio_1a6e7e822cd29d6fd8924b528a0b05a945" kind="variable"><name>pedidos</name></member>
+    <member refid="class_relatorio_1a93c9f60a93b92979831c374a18ee82dd" kind="variable"><name>custoTotal</name></member>
+    <member refid="class_relatorio_1ae91cce6eb0e052f21495248bf45fc3c3" kind="variable"><name>lucroTotal</name></member>
+    <member refid="class_relatorio_1aacc2d8b987721411d944053303e18ba4" kind="variable"><name>despesaTotal</name></member>
+    <member refid="class_relatorio_1a451ead5a20e2f0abfd890b6b66827f92" kind="function"><name>Relatorio</name></member>
+    <member refid="class_relatorio_1a02ccee0a3e08e9521e0138454b8aa0cc" kind="function"><name>adicionarPedido</name></member>
+    <member refid="class_relatorio_1af3ece141e225f47abc678bc634848228" kind="function"><name>calcularCustos</name></member>
+    <member refid="class_relatorio_1a54f285e693dbe1db56e6de2c4fff9fb0" kind="function"><name>calcularLucro</name></member>
+    <member refid="class_relatorio_1ac78b26bfec5c60b3929ae3571bc31712" kind="function"><name>calcularDespesa</name></member>
+    <member refid="class_relatorio_1a64ef0bfd8e020635cb3169a88d90cb0e" kind="function"><name>mostrarRelatorio</name></member>
+  </compound>
+  <compound refid="_cardapio_8cpp" kind="file"><name>Cardapio.cpp</name>
+  </compound>
+  <compound refid="_cardapio_8hpp" kind="file"><name>Cardapio.hpp</name>
+  </compound>
+  <compound refid="_cliente_8cpp" kind="file"><name>Cliente.cpp</name>
+  </compound>
+  <compound refid="_cliente_8hpp" kind="file"><name>Cliente.hpp</name>
+  </compound>
+  <compound refid="_cozinheiro_8cpp" kind="file"><name>Cozinheiro.cpp</name>
+  </compound>
+  <compound refid="_cozinheiro_8hpp" kind="file"><name>Cozinheiro.hpp</name>
+  </compound>
+  <compound refid="_dono_restaurante_8cpp" kind="file"><name>DonoRestaurante.cpp</name>
+  </compound>
+  <compound refid="_dono_restaurante_8hpp" kind="file"><name>DonoRestaurante.hpp</name>
+  </compound>
+  <compound refid="_entregador_8cpp" kind="file"><name>Entregador.cpp</name>
+  </compound>
+  <compound refid="_entregador_8hpp" kind="file"><name>Entregador.hpp</name>
+  </compound>
+  <compound refid="lib__finder_8script" kind="file"><name>lib_finder.script</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="main_8o" kind="file"><name>main.o</name>
+  </compound>
+  <compound refid="_pedido_8cpp" kind="file"><name>Pedido.cpp</name>
+  </compound>
+  <compound refid="_pedido_8hpp" kind="file"><name>Pedido.hpp</name>
+  </compound>
+  <compound refid="_relatorio_8cpp" kind="file"><name>Relatorio.cpp</name>
+  </compound>
+  <compound refid="_relatorio_8hpp" kind="file"><name>Relatorio.hpp</name>
+  </compound>
+</doxygenindex>

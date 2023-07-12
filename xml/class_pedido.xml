@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="pt-BR">
+  <compounddef id="class_pedido" kind="class" language="C++" prot="public">
+    <compoundname>Pedido</compoundname>
+    <includes refid="_pedido_8hpp" local="no">Pedido.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pedido_1ac29366538d92bcdb8e67e25bb17b06f2" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Pedido::cliente</definition>
+        <argsstring></argsstring>
+        <name>cliente</name>
+        <qualifiedname>Pedido::cliente</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pedido.hpp" line="9" column="17" bodyfile="Pedido.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pedido_1af6e9f0ede4b4440b450fc5e9ef2507b8" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Pedido::descricao</definition>
+        <argsstring></argsstring>
+        <name>descricao</name>
+        <qualifiedname>Pedido::descricao</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pedido.hpp" line="10" column="17" bodyfile="Pedido.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pedido_1a7cbed1541fa704892d2f9673ecd883df" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Pedido::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>Pedido::status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pedido.hpp" line="11" column="17" bodyfile="Pedido.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pedido_1a3ef8da3c8e2d629143745799f0b1d417" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pedido::Pedido</definition>
+        <argsstring>(const std::string &amp;cliente, const std::string &amp;descricao)</argsstring>
+        <name>Pedido</name>
+        <qualifiedname>Pedido::Pedido</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>cliente</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>descricao</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pedido.hpp" line="14" column="5" bodyfile="Pedido.cpp" bodystart="3" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pedido_1ad20a84f0d7a3c9989cc7e5de8067c826" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Pedido::getCliente</definition>
+        <argsstring>() const</argsstring>
+        <name>getCliente</name>
+        <qualifiedname>Pedido::getCliente</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pedido.hpp" line="15" column="17" bodyfile="Pedido.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pedido_1acefda5d25c146520eddb932d7c66be65" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Pedido::getDescricao</definition>
+        <argsstring>() const</argsstring>
+        <name>getDescricao</name>
+        <qualifiedname>Pedido::getDescricao</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pedido.hpp" line="16" column="17" bodyfile="Pedido.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pedido_1abab6213c1a30367f4a2afda215e31005" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Pedido::getStatus</definition>
+        <argsstring>() const</argsstring>
+        <name>getStatus</name>
+        <qualifiedname>Pedido::getStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pedido.hpp" line="17" column="17" bodyfile="Pedido.cpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pedido_1a21bdc6a0b9ed9c305ad5cf27d479460a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pedido::setStatus</definition>
+        <argsstring>(const std::string &amp;novoStatus)</argsstring>
+        <name>setStatus</name>
+        <qualifiedname>Pedido::setStatus</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>novoStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pedido.hpp" line="18" column="10" bodyfile="Pedido.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Pedido.hpp" line="6" column="1" bodyfile="Pedido.hpp" bodystart="7" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_pedido_1ac29366538d92bcdb8e67e25bb17b06f2" prot="private" virt="non-virtual"><scope>Pedido</scope><name>cliente</name></member>
+      <member refid="class_pedido_1af6e9f0ede4b4440b450fc5e9ef2507b8" prot="private" virt="non-virtual"><scope>Pedido</scope><name>descricao</name></member>
+      <member refid="class_pedido_1ad20a84f0d7a3c9989cc7e5de8067c826" prot="public" virt="non-virtual"><scope>Pedido</scope><name>getCliente</name></member>
+      <member refid="class_pedido_1acefda5d25c146520eddb932d7c66be65" prot="public" virt="non-virtual"><scope>Pedido</scope><name>getDescricao</name></member>
+      <member refid="class_pedido_1abab6213c1a30367f4a2afda215e31005" prot="public" virt="non-virtual"><scope>Pedido</scope><name>getStatus</name></member>
+      <member refid="class_pedido_1a3ef8da3c8e2d629143745799f0b1d417" prot="public" virt="non-virtual"><scope>Pedido</scope><name>Pedido</name></member>
+      <member refid="class_pedido_1a21bdc6a0b9ed9c305ad5cf27d479460a" prot="public" virt="non-virtual"><scope>Pedido</scope><name>setStatus</name></member>
+      <member refid="class_pedido_1a7cbed1541fa704892d2f9673ecd883df" prot="private" virt="non-virtual"><scope>Pedido</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

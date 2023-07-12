@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="pt-BR">
+  <compounddef id="class_dono_restaurante" kind="class" language="C++" prot="public">
+    <compoundname>DonoRestaurante</compoundname>
+    <includes refid="_dono_restaurante_8hpp" local="no">DonoRestaurante.hpp</includes>
+    <innerclass refid="struct_dono_restaurante_1_1_fornecedor" prot="private">DonoRestaurante::Fornecedor</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_dono_restaurante_1ac3ae20cd798b3822658f8a16a75defee" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; Fornecedor &gt;</type>
+        <definition>std::vector&lt;Fornecedor&gt; DonoRestaurante::fornecedores</definition>
+        <argsstring></argsstring>
+        <name>fornecedores</name>
+        <qualifiedname>DonoRestaurante::fornecedores</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DonoRestaurante.hpp" line="17" column="17" bodyfile="DonoRestaurante.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dono_restaurante_1ae6ba5a487f047d62680cf11b6a7aad45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DonoRestaurante::cadastrarFornecedor</definition>
+        <argsstring>(const std::string &amp;nome, const std::string &amp;endereco, const std::string &amp;telefone)</argsstring>
+        <name>cadastrarFornecedor</name>
+        <qualifiedname>DonoRestaurante::cadastrarFornecedor</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>endereco</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>telefone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DonoRestaurante.hpp" line="20" column="10" bodyfile="DonoRestaurante.cpp" bodystart="4" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dono_restaurante_1ac73bba409400ac65c4d04767e7a4e651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DonoRestaurante::editarFornecedor</definition>
+        <argsstring>(const std::string &amp;nome, const std::string &amp;novoEndereco, const std::string &amp;novoTelefone)</argsstring>
+        <name>editarFornecedor</name>
+        <qualifiedname>DonoRestaurante::editarFornecedor</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>novoEndereco</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>novoTelefone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DonoRestaurante.hpp" line="21" column="10" bodyfile="DonoRestaurante.cpp" bodystart="13" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dono_restaurante_1a4f8e62ffe1e2f8ad02577f7d0df402dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DonoRestaurante::excluirFornecedor</definition>
+        <argsstring>(const std::string &amp;nome)</argsstring>
+        <name>excluirFornecedor</name>
+        <qualifiedname>DonoRestaurante::excluirFornecedor</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>nome</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DonoRestaurante.hpp" line="22" column="10" bodyfile="DonoRestaurante.cpp" bodystart="26" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dono_restaurante_1ab0b9b68e50947566a04cb6f73603cde6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DonoRestaurante::exibirFornecedores</definition>
+        <argsstring>() const</argsstring>
+        <name>exibirFornecedores</name>
+        <qualifiedname>DonoRestaurante::exibirFornecedores</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DonoRestaurante.hpp" line="23" column="10" bodyfile="DonoRestaurante.cpp" bodystart="38" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dono_restaurante_1a07ebc6d2064771dd84d5b6eeeedc1718" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DonoRestaurante::exibirPratosMaisVendidos</definition>
+        <argsstring>() const</argsstring>
+        <name>exibirPratosMaisVendidos</name>
+        <qualifiedname>DonoRestaurante::exibirPratosMaisVendidos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DonoRestaurante.hpp" line="24" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dono_restaurante_1a75f308c646d5fdd393100170c83aaf22" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DonoRestaurante::exibirLucroDiario</definition>
+        <argsstring>() const</argsstring>
+        <name>exibirLucroDiario</name>
+        <qualifiedname>DonoRestaurante::exibirLucroDiario</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DonoRestaurante.hpp" line="25" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dono_restaurante_1a790e1197bafe534fba88ce703a754763" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DonoRestaurante::exibirLucroSemanal</definition>
+        <argsstring>() const</argsstring>
+        <name>exibirLucroSemanal</name>
+        <qualifiedname>DonoRestaurante::exibirLucroSemanal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DonoRestaurante.hpp" line="26" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dono_restaurante_1a82459dfc9044b01ff03c7574a0677a9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DonoRestaurante::exibirLucroMensal</definition>
+        <argsstring>() const</argsstring>
+        <name>exibirLucroMensal</name>
+        <qualifiedname>DonoRestaurante::exibirLucroMensal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DonoRestaurante.hpp" line="27" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DonoRestaurante.hpp" line="7" column="1" bodyfile="DonoRestaurante.hpp" bodystart="8" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_dono_restaurante_1ae6ba5a487f047d62680cf11b6a7aad45" prot="public" virt="non-virtual"><scope>DonoRestaurante</scope><name>cadastrarFornecedor</name></member>
+      <member refid="class_dono_restaurante_1ac73bba409400ac65c4d04767e7a4e651" prot="public" virt="non-virtual"><scope>DonoRestaurante</scope><name>editarFornecedor</name></member>
+      <member refid="class_dono_restaurante_1a4f8e62ffe1e2f8ad02577f7d0df402dd" prot="public" virt="non-virtual"><scope>DonoRestaurante</scope><name>excluirFornecedor</name></member>
+      <member refid="class_dono_restaurante_1ab0b9b68e50947566a04cb6f73603cde6" prot="public" virt="non-virtual"><scope>DonoRestaurante</scope><name>exibirFornecedores</name></member>
+      <member refid="class_dono_restaurante_1a75f308c646d5fdd393100170c83aaf22" prot="public" virt="non-virtual"><scope>DonoRestaurante</scope><name>exibirLucroDiario</name></member>
+      <member refid="class_dono_restaurante_1a82459dfc9044b01ff03c7574a0677a9f" prot="public" virt="non-virtual"><scope>DonoRestaurante</scope><name>exibirLucroMensal</name></member>
+      <member refid="class_dono_restaurante_1a790e1197bafe534fba88ce703a754763" prot="public" virt="non-virtual"><scope>DonoRestaurante</scope><name>exibirLucroSemanal</name></member>
+      <member refid="class_dono_restaurante_1a07ebc6d2064771dd84d5b6eeeedc1718" prot="public" virt="non-virtual"><scope>DonoRestaurante</scope><name>exibirPratosMaisVendidos</name></member>
+      <member refid="class_dono_restaurante_1ac3ae20cd798b3822658f8a16a75defee" prot="private" virt="non-virtual"><scope>DonoRestaurante</scope><name>fornecedores</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
