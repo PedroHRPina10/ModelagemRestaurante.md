@@ -1,7 +1,7 @@
 CC := g++
 CPP := gcc
 CFLAGS := -Wall -fexceptions -g -Wsign-compare -fexceptions -std=c++11
-LDFLAGS := -w -O -fpermissive
+LDFLAGS := -w -O -fpermissive -static
 SRCDIR := .
 BUILDDIR := obj
 TARGET := bin/Debug/Restaurante.exe
