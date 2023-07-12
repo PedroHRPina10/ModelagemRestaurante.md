@@ -1,6 +1,6 @@
 CC := g++
 CPP := gcc
-CFLAGS := -Wall -fexceptions -g -Wsign-compare -fexceptions -std=c++11
+CFLAGS := -Wall -fexceptions -g -Wsign-compare -std=c++11
 LDFLAGS := -w -O -fpermissive -static
 SRCDIR := .
 BUILDDIR := obj
