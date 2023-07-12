@@ -1,0 +1,43 @@
+\doxysection{Cardapio.\+cpp}
+\hypertarget{_cardapio_8cpp_source}{}\label{_cardapio_8cpp_source}\mbox{\hyperlink{_cardapio_8cpp}{Ir para a documentação desse arquivo.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_cardapio_8hpp}{Cardapio.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00002}00002\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00004}\mbox{\hyperlink{class_cardapio_ab35f8746c65145389325846a7dd9d2db}{00004}}\ \mbox{\hyperlink{class_cardapio_ab35f8746c65145389325846a7dd9d2db}{Cardapio::Cardapio}}()\ \{\}}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00005}00005\ }
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00006}\mbox{\hyperlink{class_cardapio_ae11143605886b09e77e792fe05ba88d7}{00006}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_cardapio_ae11143605886b09e77e792fe05ba88d7}{Cardapio::adicionarItem}}(\textcolor{keyword}{const}\ std::string\ \&nome,\ \textcolor{keyword}{const}\ std::string\ \&descricao,\ \textcolor{keywordtype}{double}\ preco)}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00007}00007\ \{}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00008}00008\ \ \ \ \ \mbox{\hyperlink{struct_cardapio_1_1_item}{Item}}\ item;}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00009}00009\ \ \ \ \ item.\mbox{\hyperlink{struct_cardapio_1_1_item_a4cb41b0bea37ab98239106a5b03c8ac6}{nome}}\ =\ nome;}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00010}00010\ \ \ \ \ item.\mbox{\hyperlink{struct_cardapio_1_1_item_adcb31d91dc32fc8b792b01297db9fc15}{descricao}}\ =\ descricao;}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00011}00011\ \ \ \ \ item.\mbox{\hyperlink{struct_cardapio_1_1_item_a780183549ff908d6ae96499a1b81740f}{preco}}\ =\ preco;}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00012}00012\ \ \ \ \ itens.push\_back(item);}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00013}00013\ \}}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00014}00014\ }
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00015}\mbox{\hyperlink{class_cardapio_a62d53a430c64844bc355419551d4d1c6}{00015}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_cardapio_a62d53a430c64844bc355419551d4d1c6}{Cardapio::removerItem}}(\textcolor{keyword}{const}\ std::string\ \&nome)}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00016}00016\ \{}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00017}00017\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{auto}\ it\ =\ itens.begin();\ it\ !=\ itens.end();\ ++it)}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00018}00018\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00019}00019\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (it-\/>nome\ ==\ nome)}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00020}00020\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00021}00021\ \ \ \ \ \ \ \ \ \ \ \ \ itens.erase(it);}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00022}00022\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{break};}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00023}00023\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00024}00024\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00025}00025\ \}}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00026}00026\ }
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00027}\mbox{\hyperlink{class_cardapio_ac6f47639002d2fbbb51579c20a2668d8}{00027}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_cardapio_ac6f47639002d2fbbb51579c20a2668d8}{Cardapio::exibirCardapio}}()\textcolor{keyword}{\ const}}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00028}00028\ \textcolor{keyword}{}\{}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00029}00029\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Cardápio\ do\ Restaurante:\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00030}00030\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00031}00031\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{const}\ \textcolor{keyword}{auto}\ \&item\ :\ itens)}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00032}00032\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00033}00033\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Nome:\ "{}}\ <<\ item.nome\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00034}00034\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Descrição:\ "{}}\ <<\ item.descricao\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00035}00035\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Preço:\ R\$"{}}\ <<\ item.preco\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00036}00036\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00037}00037\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{_cardapio_8cpp_source_l00038}00038\ \}}
+
+\end{DoxyCode}

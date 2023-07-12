@@ -1,0 +1,31 @@
+\doxysection{Entregador.\+hpp}
+\hypertarget{_entregador_8hpp_source}{}\label{_entregador_8hpp_source}\mbox{\hyperlink{_entregador_8hpp}{Ir para a documentação desse arquivo.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00001}00001\ \textcolor{preprocessor}{\#ifndef\ ENTREGADOR\_HPP}}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00002}00002\ \textcolor{preprocessor}{\#define\ ENTREGADOR\_HPP}}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00006}00006\ }
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00007}\mbox{\hyperlink{class_entregador}{00007}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_entregador}{Entregador}}}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00008}00008\ \{}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00009}00009\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00010}00010\ \ \ \ \ \textcolor{keyword}{struct\ }Pedido}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00011}00011\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00012}00012\ \ \ \ \ \ \ \ \ std::string\ enderecoEntrega;}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00013}00013\ \ \ \ \ \ \ \ \ std::string\ contatoCliente;}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00014}00014\ \ \ \ \ \ \ \ \ std::string\ status;}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00015}00015\ \ \ \ \ \};}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00017}00017\ \ \ \ \ std::vector<Pedido>\ pedidos;}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00018}00018\ }
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00019}00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00020}00020\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_entregador_aefdec78b5549ba67ce3d43933e99bb29}{receberNovoPedido}}(\textcolor{keyword}{const}\ std::string\ \&enderecoEntrega,\ \textcolor{keyword}{const}\ std::string\ \&contatoCliente);}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00021}00021\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_entregador_a710946d5b5d3c48cf8612e267693f66a}{exibirPedidosPendentes}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00022}00022\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_entregador_ab9b87f022cc72b791bfa72303c313afc}{exibirTempoEntrega}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00023}00023\ \ \ \ \textcolor{comment}{/*\ void\ marcarPedidoEntregue(int\ indicePedido);*/}}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00024}00024\ \};}
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00025}00025\ }
+\DoxyCodeLine{\Hypertarget{_entregador_8hpp_source_l00026}00026\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

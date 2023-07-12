@@ -1,0 +1,35 @@
+\doxysection{Dono\+Restaurante.\+hpp}
+\hypertarget{_dono_restaurante_8hpp_source}{}\label{_dono_restaurante_8hpp_source}\mbox{\hyperlink{_dono_restaurante_8hpp}{Ir para a documentação desse arquivo.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00001}00001\ \textcolor{preprocessor}{\#ifndef\ DONORESTAURANTE\_HPP}}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00002}00002\ \textcolor{preprocessor}{\#define\ DONORESTAURANTE\_HPP}}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00006}00006\ }
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00007}\mbox{\hyperlink{class_dono_restaurante}{00007}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_dono_restaurante}{DonoRestaurante}}}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00008}00008\ \{}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00009}00009\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00010}00010\ \ \ \ \ \textcolor{keyword}{struct\ }Fornecedor}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00011}00011\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00012}00012\ \ \ \ \ \ \ \ \ std::string\ nome;}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00013}00013\ \ \ \ \ \ \ \ \ std::string\ endereco;}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00014}00014\ \ \ \ \ \ \ \ \ std::string\ telefone;}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00015}00015\ \ \ \ \ \};}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00017}00017\ \ \ \ \ std::vector<Fornecedor>\ fornecedores;}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00018}00018\ }
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00019}00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00020}00020\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dono_restaurante_ae6ba5a487f047d62680cf11b6a7aad45}{cadastrarFornecedor}}(\textcolor{keyword}{const}\ std::string\ \&nome,\ \textcolor{keyword}{const}\ std::string\ \&endereco,\ \textcolor{keyword}{const}\ std::string\ \&telefone);}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00021}00021\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dono_restaurante_ac73bba409400ac65c4d04767e7a4e651}{editarFornecedor}}(\textcolor{keyword}{const}\ std::string\ \&nome,\ \textcolor{keyword}{const}\ std::string\ \&novoEndereco,\ \textcolor{keyword}{const}\ std::string\ \&novoTelefone);}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00022}00022\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dono_restaurante_a4f8e62ffe1e2f8ad02577f7d0df402dd}{excluirFornecedor}}(\textcolor{keyword}{const}\ std::string\ \&nome);}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00023}00023\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dono_restaurante_ab0b9b68e50947566a04cb6f73603cde6}{exibirFornecedores}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00024}\mbox{\hyperlink{class_dono_restaurante_a07ebc6d2064771dd84d5b6eeeedc1718}{00024}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dono_restaurante_a07ebc6d2064771dd84d5b6eeeedc1718}{exibirPratosMaisVendidos}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00025}\mbox{\hyperlink{class_dono_restaurante_a75f308c646d5fdd393100170c83aaf22}{00025}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dono_restaurante_a75f308c646d5fdd393100170c83aaf22}{exibirLucroDiario}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00026}\mbox{\hyperlink{class_dono_restaurante_a790e1197bafe534fba88ce703a754763}{00026}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dono_restaurante_a790e1197bafe534fba88ce703a754763}{exibirLucroSemanal}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00027}\mbox{\hyperlink{class_dono_restaurante_a82459dfc9044b01ff03c7574a0677a9f}{00027}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dono_restaurante_a82459dfc9044b01ff03c7574a0677a9f}{exibirLucroMensal}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00028}00028\ \};}
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00029}00029\ }
+\DoxyCodeLine{\Hypertarget{_dono_restaurante_8hpp_source_l00030}00030\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

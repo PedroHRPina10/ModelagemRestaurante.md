@@ -1,0 +1,31 @@
+\doxysection{Cozinheiro.\+hpp}
+\hypertarget{_cozinheiro_8hpp_source}{}\label{_cozinheiro_8hpp_source}\mbox{\hyperlink{_cozinheiro_8hpp}{Ir para a documentação desse arquivo.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00001}00001\ \textcolor{preprocessor}{\#ifndef\ COZINHEIRO\_HPP}}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00002}00002\ \textcolor{preprocessor}{\#define\ COZINHEIRO\_HPP}}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00006}00006\ }
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00007}\mbox{\hyperlink{class_cozinheiro}{00007}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_cozinheiro}{Cozinheiro}}}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00008}00008\ \{}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00009}00009\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00010}00010\ \ \ \ \ \textcolor{keyword}{struct\ }Pedido}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00011}00011\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00012}00012\ \ \ \ \ \ \ \ \ std::string\ cliente;}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00013}00013\ \ \ \ \ \ \ \ \ std::vector<std::string>\ itens;}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00014}00014\ \ \ \ \ \ \ \ \ std::string\ status;}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00015}00015\ \ \ \ \ \};}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00017}00017\ \ \ \ \ std::vector<Pedido>\ pedidos;}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00018}00018\ }
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00019}00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00020}00020\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_cozinheiro_ad1fcd2d9b6354b2bf70f6ad2b5d507c5}{receberNovoPedido}}(\textcolor{keyword}{const}\ std::string\ \&cliente,\ \textcolor{keyword}{const}\ std::vector<std::string>\ \&itens);}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00021}00021\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_cozinheiro_a2ad3bf47edc3750c21e73bc578c872fc}{exibirPedidosPendentes}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00022}00022\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_cozinheiro_a5301ed38fb817ee8cf93247598322205}{exibirDetalhesPedido}}(\textcolor{keywordtype}{int}\ indicePedido)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00023}00023\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_cozinheiro_ac0f36981f086f9ada1191673f9f95e53}{marcarPedidoPreparado}}(\textcolor{keywordtype}{int}\ indicePedido);}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00024}00024\ \};}
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00025}00025\ }
+\DoxyCodeLine{\Hypertarget{_cozinheiro_8hpp_source_l00026}00026\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
